@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-                style: ElevatedButton.styleFrom(primary: Colors.deepOrange),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.deepOrange),
                 onPressed: () {
                   clearBoard();
                   enabled = true;
